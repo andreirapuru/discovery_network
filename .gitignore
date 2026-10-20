@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+output/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+.remote-inspect/
