@@ -124,11 +124,11 @@ python main.py --help
 O console mostra o equipamento atual, cada comando, os vizinhos encontrados e as próximas ações:
 
 ```text
-[INFO] [DISCOVERY] Accessing IP 10.10.10.52 | depth=1 | discovered_by=CDP:ADDHQGW01
+[INFO] [DISCOVERY] Accessing IP 10.10.10.52 | depth=1 | discovered_by=CDP:BRAINGW01
 [INFO] [SSH] Opening neighbor 10.10.10.52 through seed 10.10.10.1
-[INFO] [SSH] Running command on ADDHQSW02: show cdp neighbors detail
-[INFO] [DEVICE] Collected ADDHQSW02 | ip=10.10.10.52 | model=WS-C2960S-48LPS-L | neighbors=4
-[INFO] [NEIGHBOR] local=ADDHQSW02 Gi1/0/11 | remote=SEP001122334455 | ip=10.10.20.21 | port=Eth0 | protocol=CDP+LLDP
+[INFO] [SSH] Running command on BRAINSW02: show cdp neighbors detail
+[INFO] [DEVICE] Collected BRAINSW02 | ip=10.10.10.52 | model=WS-C2960S-48LPS-L | neighbors=4
+[INFO] [NEIGHBOR] local=BRAINSW02 Gi1/0/11 | remote=SEP001122334455 | ip=10.10.20.21 | port=Eth0 | protocol=CDP+LLDP
 ```
 
 Falhas recuperáveis aparecem em uma única linha e não interrompem os demais equipamentos:
